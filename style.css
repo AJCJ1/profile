@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'rage-italic-regular';
+  src: url('./RAGE.TTF');
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+* {
+  margin:0;
+}
+body {
+  background: url("./images/8bit1.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h1 {
+  font-family: 'rage-italic-regular', sans-serif;
+  color: rgb(59, 37, 187);
+}
+.name_plate {
+  position:fixed;
+  top:10px;
+  right:50px;
+  font-size: 20%;
+}
+.top_box {
+  width: 30%;
+  background-color: black;
+  box-shadow: -10px -8px 0px rgb(59, 37, 187);
+  border: 1px solid transparent;
+  margin-left: 50px;
+  margin-top: 50px;
+  height:auto;
+}
+h3 {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  margin:10px;
+}
+p {
+  color: white;
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+  margin:10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+a:hover {
+  color:rgb(255, 77, 0);
+  transition: 0.2s ease;
+}
+img {
+  width:150px;
+  border-radius: 35%;
+}
+.profile_photo {
+  position:fixed;
+  right: 50px;
+  bottom: 20px;
+}
+.socials_list {
+  margin:20px;
+  text-align: left;
+}
+.socials_list ul {
+  list-style-type: none;
+  color: white;
+}
+.socials_list ul li {
+  margin:10px;
+}
