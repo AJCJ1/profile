@@ -33,12 +33,12 @@ body {
 h1 {
   font-family: 'rage-italic-regular', sans-serif;
   color: rgb(59, 37, 187);
+  font-size: 80px;
 }
 .name_plate {
   position:fixed;
   top:10px;
   right:50px;
-  font-size: 80px;
 }
 .top_box {
   width: 30%;
